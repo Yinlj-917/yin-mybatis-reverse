@@ -19,7 +19,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>6.0.6</version>
+            <version>8.0.11</version>
         </dependency>
     </dependencies>
 ```
@@ -45,5 +45,7 @@ mybatis-reverse.xml
 ### 4、运行app.java, 生成的文件在src.com....
 
 
+### 注意
 
+使用windows 将mybatis-reverse.xml中的`.\src` 修改为 `./src`
 
