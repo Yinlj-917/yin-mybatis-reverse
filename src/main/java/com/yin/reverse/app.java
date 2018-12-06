@@ -26,8 +26,10 @@ public class app {
             DefaultShellCallback callback = new DefaultShellCallback(overwrite);
             MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, callback, list);
             myBatisGenerator.generate(null);
+            System.out.println("=========== 生成成功 ===========");
         } catch (Exception e) {
             e.printStackTrace();
+            System.out.println("=========== 生成失败 ===========");
         }
     }
 }
